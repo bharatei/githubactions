@@ -1,0 +1,16 @@
+name: github
+
+on: push 
+
+jobs:
+    first_workflow:
+        runs-on: ubuntu-latest  
+        steps:
+            - name: Welcome message
+              run: echo welcome message
+
+            - name: list files
+              run: ls 
+              
+            - name: Read file
+              run: cat README.md
