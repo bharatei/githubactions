@@ -13,7 +13,7 @@ jobs:
             run: ls -ltra
           
           - name: chmod 
-            run: chmod README.sh
+            run: chmod +x README.sh
 
           - name: execute 
             run: ./README.sh
