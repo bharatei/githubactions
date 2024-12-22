@@ -6,7 +6,7 @@ jobs:
         runs-on: ubuntu-latest  
         steps:
             - name: Welcome message
-              run: echo welcome message
+              run: echo welcome message 1 
            
             - name: checkout action
               uses: actions/checkout@v4
