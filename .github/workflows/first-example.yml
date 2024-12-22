@@ -11,4 +11,10 @@ jobs:
 
           - name: list files
             run: ls -ltra
+          
+          - name: chmod 
+            run: chmod README.sh
+
+          - name: execute 
+            run: ./README.sh
             
