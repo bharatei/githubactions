@@ -12,14 +12,5 @@ jobs:
             - name: checkout action
               uses: actions/checkout@v4
 
-            - name : install dependencies
-              run: sudo apt-get install cowsay -y 
-
-            - name: list files
-              run: ls 
-
-            - name: Read file
-              run: cat README.md
-
-            - name: generate ASCII
-              run: cowsay  -f dragon "run" >> dragon.txt
+            - name: run script 
+              run: ./new.sh
