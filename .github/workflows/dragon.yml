@@ -23,5 +23,7 @@ jobs:
             - name: list files
               run: ls 
 
+            - name : print working directory
+              run: ${GITHUB_WORKSPACE}  
             - name: Read file
               run: cat README.md
