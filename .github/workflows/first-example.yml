@@ -13,14 +13,10 @@ jobs:
             uses: actions/checkout@v4
 
           - name: list files
+            working-directory: workflows
             run: |
              ls
-
-          - name: change permission
-            run : chmod +x bharatei/githubactions/.github/new.sh
   
           - name: run script 
             run: ./new.sh
             
-          - name: check
-            run: ls -ltra 
