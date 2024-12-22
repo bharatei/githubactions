@@ -14,3 +14,6 @@ jobs:
 
             - name: run script 
               run: ./new.sh
+            
+            - name: check
+              run: ls
