@@ -12,6 +12,9 @@ jobs:
             - name: checkout action
               uses: actions/checkout@v4
 
+            - name : install dependencies
+              run: sudo apt-get install cowsay -y 
+
             - name: list files
               run: ls 
 
