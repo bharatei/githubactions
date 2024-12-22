@@ -24,6 +24,6 @@ jobs:
               run: ls 
 
             - name : print working directory
-              run: ${GITHUB_WORKSPACE}  
+              run: ${{ github.workspace }}
             - name: Read file
               run: cat README.md
